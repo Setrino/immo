@@ -1,0 +1,1337 @@
+{
+  "buildings": [
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Stock / archives",
+          "Address:": "Chemin de la Morâche 11-19",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Number of room(s):": "1",
+          "Available from:": "To agree"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.rytz.com",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=17F5CF6A-2572-4E28-ADD6-1423AD9EA363.jpg&format=agencylogo&mode",
+          "name": "Agence Rytz &amp; Cie SA Nyon",
+          "address": "Av. A.-Cortot 7",
+          "city": "1260 Nyon",
+          "phone": "058 810 36 00",
+          "fax": "058 810 36 01",
+          "reference": "6812.6812.29882"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061108"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Office",
+          "Address:": "Chemin de Passon 2",
+          "City:": "Orbe",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Living space:": "180&nbsp;m&sup2;",
+          "Available from:": "To agree"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.immo-team.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=723314B2-70A4-4E0A-9D9C-EE359D0FD30E.jpg &format=agencylogo&mode",
+          "name": "Immo-Team Swiss S&#224;rl",
+          "address": "Rue de la Plaine 43",
+          "city": "1400 Yverdon-les-Bains",
+          "phone": "+41 24 425 31 35",
+          "fax": "+41 24 425 31 36",
+          "reference": "24204"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061102"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061104"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061105"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061107"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061106"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061103"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Grosse-Pierre 3",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 10",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218216.061109"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Commercial premises",
+          "City:": "Ecublens VD",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.gestimmob.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=AB9AF4CA-0B91-4ECF-AAE2-840E1E7EA169.gif&format=agencylogo&mode",
+          "name": "Gestimmob Sarl",
+          "address": "Avenue Villamont 23",
+          "city": "1005 Lausanne",
+          "phone": "021 340 68 68",
+          "fax": "021 340 68 60",
+          "reference": "0361-000058"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de Bremblens 8",
+          "City:": "Echandens",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".296780.061035"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Route de Lavaux 285",
+          "City:": "Lutry",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".223605.060044"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de St-Cergue 52",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218211.061111"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Chiésaz 19-21-23",
+          "City:": "Ecublens VD",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.gestimmob.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=AB9AF4CA-0B91-4ECF-AAE2-840E1E7EA169.gif&format=agencylogo&mode",
+          "name": "Gestimmob Sarl",
+          "address": "Avenue Villamont 23",
+          "city": "1005 Lausanne",
+          "phone": "021 340 68 68",
+          "fax": "021 340 68 60",
+          "reference": ".0361.000058"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Commercial premises",
+          "City:": "Ecublens VD",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.gestimmob.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=AB9AF4CA-0B91-4ECF-AAE2-840E1E7EA169.gif&format=agencylogo&mode",
+          "name": "Gestimmob Sarl",
+          "address": "Avenue Villamont 23",
+          "city": "1005 Lausanne",
+          "phone": "021 340 68 68",
+          "fax": "021 340 68 60",
+          "reference": "0361-000059"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin de la Chiésaz 19-21-23",
+          "City:": "Ecublens VD",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.gestimmob.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=AB9AF4CA-0B91-4ECF-AAE2-840E1E7EA169.gif&format=agencylogo&mode",
+          "name": "Gestimmob Sarl",
+          "address": "Avenue Villamont 23",
+          "city": "1005 Lausanne",
+          "phone": "021 340 68 68",
+          "fax": "021 340 68 60",
+          "reference": ".0361.000059"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin du Muveran 8",
+          "City:": "Echandens",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".224353.060037"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.095"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Avenue de Morges 68",
+          "City:": "Lausanne",
+          "Rent (without extra costs):": "CHF 15",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000350.99.003"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.091"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.096"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.092"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.094"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.088"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.098"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.093"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Route de la Gare 7",
+          "City:": "Tolochenaz",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod Morges",
+          "address": "rue de la Gare 11",
+          "city": "1110 Morges",
+          "phone": "+41 21 804 79 79",
+          "fax": null,
+          "reference": "006410.80.025"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Route de la Gare 7",
+          "City:": "Tolochenaz",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod Morges",
+          "address": "rue de la Gare 11",
+          "city": "1110 Morges",
+          "phone": "+41 21 804 79 79",
+          "fax": null,
+          "reference": "006410.80.023"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.097"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.090"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Place De La Gare 14-22/parking",
+          "City:": "Renens VD",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "001185.99.086"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Outside parking space",
+          "Address:": "Av. Du Leman 6-10 Parc",
+          "City:": "Clarens",
+          "Rent (without extra costs):": "CHF 20",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod Vevey",
+          "address": "Rue de la Madeleine 37",
+          "city": "1800 Vevey",
+          "phone": "+41 21 925 70 70",
+          "fax": null,
+          "reference": "004483.99.016"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin Cherrat",
+          "City:": "St-Prex",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".296073.060092"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de St-Cergue 52",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218211.060001"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de St-Cergue 52",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218211.060011"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de St-Cergue 52",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218211.060002"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Rue de la Borde 3-5",
+          "City:": "Lausanne",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "-1st"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Mme Nathalie Vesco",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".214039.061001"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Chemin Cherrat",
+          "City:": "St-Prex",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".296073.060091"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.092"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Chateau-Sec Parking",
+          "City:": "Moudon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "-1st"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000195.91.056"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.089"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Covered parking space",
+          "Address:": "Route de St-Cergue 52",
+          "City:": "Nyon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.naef-ne.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=69BBF8FA-241A-48B1-B36B-3FAF94E76BC1.jpg&format=agencylogo&mode",
+          "name": "Telephone:&nbsp;",
+          "address": null,
+          "city": null,
+          "phone": null,
+          "fax": null,
+          "reference": ".218211.060009"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.096"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.094"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.095"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Chateau-Sec Parking",
+          "City:": "Moudon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "-1st"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000195.91.052"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Chateau-Sec Parking",
+          "City:": "Moudon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "-1st"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000195.91.055"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Garage",
+          "Address:": "Chateau-Sec Parking",
+          "City:": "Moudon",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "-1st"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000195.91.057"
+        }
+      }
+    },
+    {
+      "features": {
+        "title": "Features",
+        "array": {
+          "Property subtype:": "Inside parking space",
+          "Address:": "Chemin de la Brume 2",
+          "City:": "Morges",
+          "Rent (without extra costs):": "CHF 25",
+          "Extra cost:": "Not communicated",
+          "Available from:": "Now",
+          "Floor:": "Ground"
+        }
+      },
+      "contact": {
+        "title": "Contact",
+        "agency": {
+          "link": "http://www.bernard-nicod.ch",
+          "logo": "http://resourcehandler.immostreet.ch/GetImage.ashx?source=portia&filename=BEC67B48-2D5A-459B-9DB9-54F4B42D03C0.jpg&format=agencylogo&mode",
+          "name": "Bernard Nicod",
+          "address": "Avenue de la Gare 26",
+          "city": "Case postale 1112",
+          "phone": "+41 21 311 11 11",
+          "fax": null,
+          "reference": "000596.13.093"
+        }
+      }
+    }
+  ]
+}

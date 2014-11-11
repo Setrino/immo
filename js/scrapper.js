@@ -34,7 +34,7 @@ function perCourse(courseId, callback) {
     var uri = 'http://www.immostreet.ch';
     var url = 'http://www.immostreet.ch/en/SearchEngine/Rent/Switzerland/All?AreaId=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&' +
         'AreaIdAgregate=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&SearchCriteriaImmoId=766388da-719c-7644-cb71-8dcaf843cdeb&p' +
-        '=1';
+        '=15';
     //384 - scale 10.1
 
     request(url, (function(course) { return function(err, resp, body) {
@@ -67,7 +67,7 @@ function perCourse(courseId, callback) {
 
 async.each(courseIds, perCourse, function (err) {
     // Executed after for loop finished;
-    setTimeout(writeToJSON, 5000);
+    setTimeout(writeToJSON, 20000);
     //writeToJSON();
 });
 

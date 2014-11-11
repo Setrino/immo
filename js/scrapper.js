@@ -40,6 +40,8 @@ function perCourse(courseId, callback) {
     request(url, (function(course) { return function(err, resp, body) {
         $ = cheerio.load(body);
 
+        console.log($("search-title_num-of-results").indexOf('res'));
+
         //console.log($("#search-engine_list").children('div'));
 
         //Inner Page
@@ -301,7 +303,7 @@ function innerBuilding(body, $){
             }
         }
     });
-    console.log(building);
+    //console.log(building);
     buildings.push(building);
 }
 

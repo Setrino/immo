@@ -32,9 +32,9 @@ function perCourse(courseId, callback) {
     file = 'buildings';
     //var url = 'http://hec.unil.ch/hec/timetables/snc_de_pub?pub_id=' + course;    // exams
     var uri = 'http://www.immostreet.ch';
-    var url = 'http://www.immostreet.ch/en/SearchEngine/Rent/Switzerland/All?AreaId=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&' +
-        'AreaIdAgregate=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&SearchCriteriaImmoId=766388da-719c-7644-cb71-8dcaf843cdeb&p' +
-        '=15';
+    var url = 'http://www.immostreet.ch/en/SearchEngine/Rent/Switzerland/All?AreaId=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&AreaIdAgregate=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&SearchCriteriaImmoId=766388da-719c-7644-cb71-8dcaf843cdeb&p=1';
+    //var url = 'http://www.immostreet.ch/en/ItemDetails/Campaign/b878ec45-ddd9-4b7c-97de-46ce7b454590?returnUrl=%2fen%2fSearchEngine%2fRent%2fSwitzerland%2fAll%2fMonthlyRent_ASC%3fAreaId%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26AreaIdAgregate%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26SearchCriteriaImmoId%3daaa57780-f714-4be5-89a9-1d32145407f8%26resultPerPage%3d10';
+    //var url = 'http://www.immostreet.ch/en/ItemDetails/Campaign/3506fc05-2afc-4287-b010-252c73b1d44a?returnUrl=%2fen%2fSearchEngine%2fRent%2fSwitzerland%2fAll%2fMonthlyRent_ASC%3fAreaId%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26AreaIdAgregate%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26PropertySubTypeGroupID%3d1%2c10%2c11%2c12%2c13%2c14%2c15%2c16%2c17%2c18%2c19%2c20%2c4%2c5%2c6%2c7%2c8%2c9%26CurrencyID%3dCHF%26SearchCriteriaImmoId%3dd04d4da9-861d-f1a4-3088-5ee85b70cfe6%26resultPerPage%3d10';
     //384 - scale 10.1
 
     request(url, (function(course) { return function(err, resp, body) {
@@ -43,16 +43,14 @@ function perCourse(courseId, callback) {
         //console.log($("#search-engine_list").children('div'));
 
         //Inner Page
-
+        //innerBuilding($(".id_content .inner"), $), callback();
         //Main Page
-        $($("#search-engine_list > div")).each(function(day){
-
+        var entries = $("#search-engine_list > div");
+        var entriesCounter = 0;
+        $(entries).each(function(day){
             if($(this).attr('id') != 'undefined'){
+                entriesCounter++;
                 var link = uri + $(this).find('.classified_thumb').children('a').attr('href');
-                //console.log($(this).find('.classified_thumb').children('a').attr('href'));
-                //$(this).find('.classified_thumb').children('a').attr('href') // LINK
-
-                //console.log(link);
                 request(link, function (error, response, body) {
                     if (!error && response.statusCode == 200) {
                         //console.log(body);
@@ -61,14 +59,23 @@ function perCourse(courseId, callback) {
                     }
                 });
             }
-        }), callback();
+        }), timedCallback(entriesCounter - 1);
     }})(courseId));
+}
+
+timedCallback = function(entriesLength){
+    var checker = function(){
+        if(entriesLength == buildings.length) {
+            writeToJSON();
+            clearInterval(timer);
+        }
+    };
+    var timer = setInterval(checker, 5000);
 }
 
 async.each(courseIds, perCourse, function (err) {
     // Executed after for loop finished;
-    setTimeout(writeToJSON, 20000);
-    //writeToJSON();
+    //setTimeout(writeToJSON, 10000);
 });
 
 
@@ -76,10 +83,52 @@ async.each(courseIds, perCourse, function (err) {
 //dublicate - array for dublicate elements. [location, group]
 function Building(){
 
-    this.features = {title: String,
-                     array: {}
+    this.gallery = {};
+    this.summary = {
+                    price: String,
+                    subtype: String,
+                    address: String,
+                    immocode: String,
+                    available: String
                     };
-    this.contact = {title: String,
+    this.description = {
+                    title: String,
+                    details: String
+                    }
+    this.features = {
+                    title: String,
+                    array: {}
+                    };
+    this.facilities = {
+                    title: String,
+                    array: {}
+                    };
+    this.exposition = {
+                    title: String,
+                    array: {}
+                    };
+    this.view = {
+                    title: String,
+                    array: {}
+                    };
+    this.environment = {
+                    title: String,
+                    array: {}
+                    };
+    this.proximity = {
+                    title: String,
+                    array: {}
+                    };
+    this.activities = {
+                    title: String,
+                    array: {}
+                    };
+    this.location = {
+                    title: String,
+                    address: String
+                    };
+    this.contact = {
+                    title: String,
                     agency: {
                         link: String,
                         logo: String,
@@ -88,8 +137,16 @@ function Building(){
                         city: String,
                         phone: String,
                         fax: String
-                            }
-    };
+                            },
+                    company: {
+                        person: String,
+                        phone: String
+                             },
+                    visit:   {
+                        person: String,
+                        phone: String
+                             }
+                    };
 }
 
 //current - current event object, lecture
@@ -169,44 +226,92 @@ function innerBuilding(body, $){
 
         var that = $(this);
 
-        if(not_allowed.indexOf($(this).attr('class')) == -1){
+        if(not_allowed.indexOf(that.attr('class')) == -1){
 
             switch(that.attr('class')){
                 case 'row row__drop __no-gutters __no-print' :
                     //console.log($(this).attr());
+                    $(that.find('.id_gallery_image a')).each(function(i){
+                        building.gallery[i] = (trim($(this).attr('href')));
+                    });
+                    building.summary.price = trim(that.find(".id_summary_title_price").html());
+                    building.summary.subtype = trim(that.find(".id_summary_title_subtype").html());
+                    building.summary.address = trim(that.find(".id_summary_address").html());
+                    building.summary.immocode = trim(that.find(".id_immocode_value").html());
+                    building.summary.available = trim(that.find(".id_highlights_item_value").html());
                     break;
                 case 'id_description' :
-                    //console.log($(this).attr());
+                    building.description.title = trim(that.find('.id_title').html());
+                    building.description.details = trim(that.find('.id_description').html());
                     break;
             };
 
             switch(that.attr('id')){
                 case 'id_features' :
-                    building.features.title =  $(this).find('.id_properties_title').html();
-                    var temp = [];
+                    building.features.title =  that.find('.id_properties_title').html();
                     $(that.find('.id_label-value_item')).each(function(){
-
                         building.features.array[$(this).children('.id_label-value_item_label').html()] =
                             $(this).children('.id_label-value_item_value').html();
                     });
                     break;
+                case 'id_facilities' :
+                    building.facilities.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.facilities.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_exposition' :
+                    building.exposition.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.exposition.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_view' :
+                    building.view.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.view.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_environment' :
+                    building.environment.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.environment.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_proximity' :
+                    building.proximity.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.proximity.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_activities' :
+                    building.activities.title =  $(this).find('.id_properties_title').html();
+                    $(that.find('.id_properties_item')).each(function(i){
+                        building.activities.array[i] = (trim($(this).children('.id_check_item_value').html()));
+                    });
+                    break;
+                case 'id_location' :
+                    building.location.title =  trim(that.find('.id_properties_title').html());
+                    building.location.address = trim(that.find('#id_location_panels_street-view').attr('data-address'));
+                    break;
                 case 'id_contact_stripe' :
-                    building.contact.title = trim($(this).find('.id_properties_title').html());
-                    building.contact.agency.link = $(this).find('.id_agency_logo_link').attr('href');
-                    building.contact.agency.logo = $(this).find('.id_agency_logo_link_img').attr('src');
-                    building.contact.agency.reference = substring(trim($(this).find('.row p:nth-child(2)').html()), 11);
-                    building.contact.agency.name = trim($(this).find('.row div:nth-child(2) p span:first-child').html());
-                    building.contact.agency.address = trim($(this).find('.row div:nth-child(2) p span.address1').html());
-                    building.contact.agency.city = trim($(this).find('.row div:nth-child(2) p span:nth-child(5)').html());
-                    building.contact.agency.phone = trim($(this).find('#business-unit-phone-print').html());
-                    building.contact.agency.fax = trim($(this).find('#business-unit-fax-print').html());
+                    contactForm(that, building, $);
+                    //#id_contact_stripe > div > div > div > div.col-8.tcol-6.pcol-12 > div > div.id_agency > div > div:nth-child(2)
                     break;
             }
         }
     });
-
     console.log(building);
     buildings.push(building);
+}
+
+function contactName($, key){
+    return (key.length > 1 && !(key.html()).match(/Telep/g) && !(key.html()).match(/Location/g))
+        ? trim($(key[0]).html()) : null;
+}
+
+function extractPhone(string, $){
+    return (string != null) ? trim(string.html()) : null;
 }
 
 function substring(string, from, to){
@@ -215,6 +320,35 @@ function substring(string, from, to){
 
 function trim(string){
     return (string != null) ? string.trim() : null;
+}
+
+function contactForm(that, building, $){
+
+    building.contact.title = trim(that.find('.id_properties_title').html());
+    building.contact.agency.link = that.find('.id_agency_logo_link').attr('href');
+    building.contact.agency.logo = that.find('.id_agency_logo_link_img').attr('src');
+    building.contact.agency.reference = substring(trim(that.find('.row p:nth-child(2)').html()), 11);
+
+    var p = that.find('.id_agency > div > div:last-child').children('p');
+
+    if(p.length > 1){
+        building.contact.agency.name = null;
+        building.contact.agency.address = trim($(p[1]).html());
+        building.contact.agency.city = trim($(p[2]).html());
+        building.contact.agency.phone = trim($(p[3]).find('#ami-business-unit-phone-print').html());
+        building.contact.agency.fax = null;
+    }else{
+        building.contact.agency.name = trim(that.find('.row div:nth-child(2) p span:first-child').html());
+        building.contact.agency.address = trim(that.find('.row div:nth-child(2) p span.address1').html());
+        building.contact.agency.city = trim(that.find('.row div:nth-child(2) p span:nth-child(5)').html());
+        building.contact.agency.phone = trim(that.find('#business-unit-phone-print').html());
+        building.contact.agency.fax = trim(that.find('#business-unit-fax-print').html());
+    }
+
+    building.contact.company.person = contactName($, that.find('#campaign_connection_contact span'));
+    building.contact.company.phone = extractPhone(that.find('#campaign_connection_contact span:last-child'), $);
+    building.contact.visit.person = contactName($, that.find('.campaign_connection_visit-contact span'));
+    building.contact.visit.phone = trim(that.find('#visit-contact-phone-print').html());
 }
 
 function recursiveEvents(current, string, array, course, day, callback){

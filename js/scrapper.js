@@ -32,40 +32,56 @@ function perCourse(courseId, callback) {
     file = 'buildings';
     //var url = 'http://hec.unil.ch/hec/timetables/snc_de_pub?pub_id=' + course;    // exams
     var uri = 'http://www.immostreet.ch';
-    var url = 'http://www.immostreet.ch/en/SearchEngine/Rent/Switzerland/All?AreaId=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&AreaIdAgregate=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&SearchCriteriaImmoId=766388da-719c-7644-cb71-8dcaf843cdeb&p=1';
+    var url = 'http://www.immostreet.ch/en/SearchEngine/Rent/Switzerland/All?AreaId=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&AreaIdAgregate=8c79c6b5-b61a-45f9-8560-91ae4825ac6a&SearchCriteriaImmoId=766388da-719c-7644-cb71-8dcaf843cdeb';
     //var url = 'http://www.immostreet.ch/en/ItemDetails/Campaign/b878ec45-ddd9-4b7c-97de-46ce7b454590?returnUrl=%2fen%2fSearchEngine%2fRent%2fSwitzerland%2fAll%2fMonthlyRent_ASC%3fAreaId%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26AreaIdAgregate%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26SearchCriteriaImmoId%3daaa57780-f714-4be5-89a9-1d32145407f8%26resultPerPage%3d10';
     //var url = 'http://www.immostreet.ch/en/ItemDetails/Campaign/3506fc05-2afc-4287-b010-252c73b1d44a?returnUrl=%2fen%2fSearchEngine%2fRent%2fSwitzerland%2fAll%2fMonthlyRent_ASC%3fAreaId%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26AreaIdAgregate%3d8c79c6b5-b61a-45f9-8560-91ae4825ac6a%26PropertySubTypeGroupID%3d1%2c10%2c11%2c12%2c13%2c14%2c15%2c16%2c17%2c18%2c19%2c20%2c4%2c5%2c6%2c7%2c8%2c9%26CurrencyID%3dCHF%26SearchCriteriaImmoId%3dd04d4da9-861d-f1a4-3088-5ee85b70cfe6%26resultPerPage%3d10';
     //384 - scale 10.1
 
-    request(url, (function(course) { return function(err, resp, body) {
-        $ = cheerio.load(body);
-
-        console.log($("search-title_num-of-results").indexOf('res'));
-
-        //console.log($("#search-engine_list").children('div'));
-
-        //Inner Page
-        //innerBuilding($(".id_content .inner"), $), callback();
-        //Main Page
-        var entries = $("#search-engine_list > div");
-        var entriesCounter = 0;
-        $(entries).each(function(day){
-            if($(this).attr('id') != 'undefined'){
-                entriesCounter++;
-                var link = uri + $(this).find('.classified_thumb').children('a').attr('href');
-                request(link, function (error, response, body) {
-                    if (!error && response.statusCode == 200) {
-                        //console.log(body);
-                        $ = cheerio.load(body);
-                        innerBuilding($(".id_content .inner"), $);
-                    }
-                });
+    findEntriesNumber(url, function(number){
+        var newUrl = url + '&p=' + number;
+        console.log("Requesting...");
+        request(newUrl, (function(course) { return function(err, resp, body) {
+            $ = cheerio.load(body);
+            if (!err && resp.statusCode == 200) {
+                console.log("Received Main Page");
             }
-        }), timedCallback(entriesCounter - 1);
-    }})(courseId));
+            //Inner Page
+            //innerBuilding($(".id_content .inner"), $), callback();
+            //Main Page
+            var entries = $("#search-engine_list > div");
+            var entriesCounter = 0;
+            $(entries).each(function(day){
+                if($(this).attr('id') != 'undefined' &&
+                    !$(this).attr('class').match('__no-print')){
+                    entriesCounter++;
+                    var link = uri + $(this).find('.classified_thumb').children('a').attr('href');
+                    request(link, function (error, response, body) {
+                        if (!error && response.statusCode == 200) {
+                            //console.log(body);
+                            $ = cheerio.load(body);
+                            innerBuilding($(".id_content .inner"), $);
+                        }
+                    });
+                }
+            }), timedCallback(entriesCounter);
+        }})(courseId));
+    });
 }
 
+findEntriesNumber = function(link, callback){
+    request(link, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            $ = cheerio.load(body);
+            var resultsNo = (trim($(".search-title_num-of-results").html())).replace(',', '');
+            resultsNo = parseInt(resultsNo.substring(0, resultsNo.indexOf('res')));
+            console.log("Results " + resultsNo);
+            callback(Math.floor(resultsNo / 10.16));
+        }
+    });
+};
+
 timedCallback = function(entriesLength){
+    console.log("Counted entries " + entriesLength);
     var checker = function(){
         if(entriesLength == buildings.length) {
             writeToJSON();
@@ -155,16 +171,6 @@ function Building(){
 //string - temporary string for the searched path
 //array - event array
 //callback - function
-
-function checkRoom(string){
-    var temp = string.toLowerCase();
-    return temp.match(/amphi|inter|anthr|géop/i) && !temp.match(/!!!/) && !temp.match(/!!/);
-}
-
-function checkLecturer(string){
-
-    return string.match(/[a-z]+\./i) || string.match(/poste/i);
-}
 
 Building.prototype = {
 
@@ -303,7 +309,7 @@ function innerBuilding(body, $){
             }
         }
     });
-    //console.log(building);
+    console.log('No of pages parsed '+ buildings.length);
     buildings.push(building);
 }
 
